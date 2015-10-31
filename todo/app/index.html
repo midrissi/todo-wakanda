@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wakanda Node Connector • Todo</title>
+		<!-- build:css({.tmp,todo/app}) css/vendor.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="/bower_components/todomvc-common/base.css">
+		<link rel="stylesheet" href="/bower_components/todomvc-app-css/index.css">
+		<!-- endbower -->
+		<!-- endbuild -->
+		<!-- build:css({.tmp,todo/app}) css/main.css -->
+		<link rel="stylesheet" href="css/app.css">
+		<!-- endbuild -->
+	</head>
+	<body ng-app="a">
+		<div ng-view=""></div>
+		<footer class="info">
+			<!-- Change this out with your name and url ↓ -->
+			<p>Created by <a href="http://github.com/midrissi" target="_blank">Mohamed IDRISSI</a></p>
+			<p>Part of <a href="https://github.com/midrissi/wakanda-node" target="_blank">Wakanda Node Connector</a></p>
+			<p>Made with <a href="http://wakanda.github.io/angular-wakanda/" target="_blank">angular-wakanda</a> connector</p>
+		</footer>
+		<!-- build:js({.tmp,todo/app}) scripts/vendor.js -->
+		<!-- bower:js -->
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular-wakanda/angular-wakanda.min.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+		<!-- build:js({.tmp/partials,todo/app}) scripts/scripts.js -->
+		<script src="js/app.js"></script>
+		<script src="js/task.js"></script>
+		<!-- inject:partials -->
+		<!-- angular templates will be automatically converted in js and inserted here -->
+		<!-- endinject -->
+		<!-- endbuild -->
+	</body>
+</html>

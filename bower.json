@@ -1,0 +1,35 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "description": "A simple deom of using the wakanda-node connector",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "wakanda",
+    "node",
+    "wakandaDB"
+  ],
+  "authors": [
+    "Mohamed IDRISSI <med.idrissi@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4",
+    "angular-wakanda": "~0.4.4",
+    "angular-route": "~1.4.7"
+  },
+  "resolutions": {
+    "angular": "~1.4.7"
+  }
+}
